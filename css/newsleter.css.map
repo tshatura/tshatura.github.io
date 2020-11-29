@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/blocks/newsleter.sass"
+    ],
+    "names": [],
+    "file": "newsleter.css"
+}
