@@ -824,7 +824,7 @@ template {
 .newsletter {
   position: relative;
   padding: 98px 0 87px 0;
-  background-image: url(../../img/newsletter_bg.jpg);
+  background-image: url(../img/newsletter_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -951,7 +951,7 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url(../../img/quote.svg);
+  background-image: url(../img/quote.svg);
   background-repeat: no-repeat;
 }
 
@@ -965,7 +965,7 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url(../../img/quote-1.svg);
+  background-image: url(../img/quote-1.svg);
   background-repeat: no-repeat;
 }
 
@@ -986,12 +986,12 @@ template {
 }
 
 .reviews-slider__button--prev {
-  background-image: url(../../img/arrow-left.svg);
+  background-image: url(../img/arrow-left.svg);
   left: 0;
 }
 
 .reviews-slider__button--next {
-  background-image: url(../../img/arrow-right.svg);
+  background-image: url(../img/arrow-right.svg);
   right: 0;
 }
 
