@@ -1283,6 +1283,10 @@ template {
   min-height: 60px;
 }
 
+.footer__icon {
+  color: white;
+}
+
 .footer__icon--wrapper {
   min-width: 40px;
 }
