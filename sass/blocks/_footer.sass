@@ -6,7 +6,7 @@
   &-wrapper
     display: grid
     grid-template-columns: repeat(4, minmax(min-content, 1fr))
-    grid-gap: 20px
+    grid-gap: 10px
     grid-auto-rows: minmax(40px, min-content)
   &__logo
     width: 166px
@@ -35,7 +35,6 @@
     align-items: center
     justify-content: space-between
     flex-wrap: wrap
-
   &__ul
     padding: 0
     margin: 0
@@ -68,7 +67,7 @@
       min-height: 60px
   &__icon
     &-wrapper
-      min-width: 40px
+      min-width: 28px
   &__link
     text-decoration: none
     color: inherit
@@ -111,3 +110,22 @@
     font-weight: bold
     line-height: 15px
     color: #E0E0E0
+  &-bottom
+    grid-row: 5 / 6
+    grid-column: 1 / 6
+    &-wrapper
+      display: flex
+      justify-content: center
+    &__item
+      font-size: 12px
+      line-height: 15px
+      text-decoration: none
+      color: #fff
+      margin-right: 10px
+      margin-left: 10px
+    &__img
+      max-height: 22px
+      grid-column: 4 / 5
+      grid-row: 5 / 6
+      display: flex
+      justify-content: flex-end
