@@ -31,7 +31,7 @@ var reviewSlider = new Swiper('.reviews-slider', {
 
 var menuButton = document.querySelector(".menu-button")
 menuButton.addEventListener("click", function() {
-  console.log("alena");
+  console.log("chudo da i tolko");
   document.querySelector(".navbar-bottom")
   .classList.toggle("navbar-bottom__visible");
 });
