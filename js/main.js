@@ -31,7 +31,21 @@ var reviewSlider = new Swiper('.reviews-slider', {
 
 var menuButton = document.querySelector(".menu-button")
 menuButton.addEventListener("click", function() {
-  console.log("chudo da i tolko");
+  console.log("navbar-bottom__visible");
   document.querySelector(".navbar-bottom")
   .classList.toggle("navbar-bottom__visible");
+})
+
+var menuButton = document.querySelector(".menu-button")
+menuButton.addEventListener("click", function() {
+  console.log("navbar-bottom__scroll");
+  document.querySelector(".navbar-bottom")
+  .classList.toggle("navbar-bottom__scroll");
+})
+
+var menuButton = document.querySelector(".menu-button")
+menuButton.addEventListener("click", function() {
+  console.log("chudo da i tolko");
+  document.querySelector(".body-pt")
+  .classList.toggle("body-pt-scroll-none");
 });

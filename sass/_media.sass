@@ -107,8 +107,11 @@
         grid-row: 5 / 6
         align-items: flex-end
 @media (max-width: 768px)
-  body
-    padding-top: 78px
+  .body
+    &-pt
+      padding-top: 78px
+      &-scroll-none
+        overflow-y: hidden
   .container
     max-width: 576px
     width: 92%
@@ -139,6 +142,9 @@
       padding-top: 31px
       &__visible
         display: block
+      &__scroll
+        overflow-y: scroll
+
     &-menu
       flex-direction: column
       &__item
@@ -235,12 +241,12 @@
       padding-top: 0
       display: flex
       justify-content: flex-start
-      &__mt
-        margin-top: 0px
       &__item
         margin-left: 0
       &-image
         align-items: flex-start
+        &__mt
+          margin-top: 0px
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -297,5 +303,5 @@
         grid-row: 6 / 7
         justify-content: flex-start
         align-items: flex-start
-      &__mt
-        margin-top: -30px
+        &__mt
+          margin-top: -30px
