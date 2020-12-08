@@ -456,6 +456,7 @@ template {
   height: 100%;
   border: none;
   background-color: #EC1F46;
+  cursor: pointer;
 }
 
 .user {
@@ -919,6 +920,7 @@ template {
   background-color: #EC1F46;
   color: #ffffff;
   min-width: 65px;
+  cursor: pointer;
 }
 
 .reviews {
